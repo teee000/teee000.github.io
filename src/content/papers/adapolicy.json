@@ -1,0 +1,14 @@
+{
+  "order": 3,
+  "title": "AdaPolicy",
+  "subtitle": "Action-Driven Anticipatory Robot Policies via Next-Chunk Prediction",
+  "description": "An anticipatory robot policy that uses next-chunk prediction to connect action generation with future behavior.",
+  "meta": "Robot policy · 2026",
+  "image": "./images/adapolicy-framework.png",
+  "imageAlt": "AdaPolicy method framework",
+  "links": [
+    { "label": "Project", "href": "https://teee111.github.io/AdaPolicy/" },
+    { "label": "Code", "href": "https://github.com/teee000/AdaPolicy" },
+    { "label": "arxiv", "href": "https://arxiv.org/abs/2610.34280" }
+  ]
+}

@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primitive-paper: oklch(0.985 0.004 85);
+  --primitive-ink: oklch(0.235 0.018 250);
+  --primitive-slate: oklch(0.43 0.018 250);
+  --primitive-mist: oklch(0.89 0.008 220);
+  --primitive-teal: oklch(0.45 0.065 195);
+  --primitive-teal-dark: oklch(0.38 0.06 195);
+
+  --color-background: var(--primitive-paper);
+  --color-text: var(--primitive-ink);
+  --color-text-soft: oklch(0.34 0.018 250);
+  --color-text-muted: var(--primitive-slate);
+  --color-accent: var(--primitive-teal);
+  --color-accent-hover: var(--primitive-teal-dark);
+  --color-border: var(--primitive-mist);
+  --color-border-strong: oklch(0.78 0.012 220);
+  --color-image-background: oklch(0.97 0.003 85);
+
+  --font-body: 'DM Sans', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-display: 'Newsreader', 'Noto Serif CJK SC', 'Songti SC', 'SimSun', serif;
+
+  --background: 45 20% 98%;
+  --foreground: 230 20% 16%;
+  --border: 210 8% 88%;
+  --ring: 190 45% 35%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100dvh;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+::selection {
+  color: var(--color-text);
+  background: oklch(0.87 0.05 190);
+}

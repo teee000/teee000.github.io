@@ -1,0 +1,14 @@
+{
+  "order": 1,
+  "title": "LiLa-WAM",
+  "subtitle": "Lightweight Latent Reasoning World-Action Model for Robotic Manipulation",
+  "description": "A lightweight world-action model that unifies future-state prediction and action generation for robotic manipulation.",
+  "meta": "World-action model · 2026",
+  "image": "./images/lila-wam-framework.png",
+  "imageAlt": "LiLa-WAM framework showing the foresight-aware action expert",
+  "links": [
+    { "label": "Project", "href": "https://teee000.github.io/LiLa-WAM-page/" },
+    { "label": "Code", "href": "https://github.com/teee000/LiLa-WAM" },
+    { "label": "arxiv", "href": "https://arxiv.org/abs/2608.03701" }
+  ]
+}
